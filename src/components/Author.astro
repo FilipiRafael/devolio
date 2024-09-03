@@ -1,6 +1,6 @@
 ---
 import { Image } from 'astro:assets';
-import Ava from '@src/assets/img/ava.jpg';
+import Ava from '@src/assets/img/ava.jpeg';
 
 type PicSize = 'sm' | 'md' | 'lg';
 interface Props {
@@ -21,17 +21,17 @@ const { picSize } = Astro.props;
 			{ 'w-[90px] h-[90px]': picSize === 'lg' }
 		]}
 	>
-		<Image src={Ava} alt='Muhammad Syakirurohman' />
+		<Image src={Ava} alt='Filipi Rafael' />
 	</a>
 	<div>
 		<div>
 			<a
-				href='https://github.com/syakirurahman'
+				href='https://github.com/filipirafael'
 				class='block font-bold text-inherit hover:text-[var(--link-color)]'
 				target='_blank'
 				rel='noopener noreferrer'
 			>
-				Muhammad Syakirurohman
+				Filipi Rafael
 			</a>
 		</div>
 		<small class='avatar__subtitle'>Frontend Engineer</small>
