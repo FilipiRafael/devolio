@@ -2,7 +2,7 @@ import { getRepositoryDetails } from '../../utils';
 
 export interface Project {
 	name: string;
-	demoLink: string;
+	github?: string;
 	tags?: string[];
 	description?: string;
 	postLink?: string;
@@ -14,7 +14,7 @@ export const projects: Project[] = [
 	{
 		name: 'meowtive',
 		description: '🐈 Your Daily Dose of Meowtivation',
-		demoLink: 'https://github.com/meowtive/meowtive',
+		github: 'https://github.com/meowtive/meowtive',
 		tags: ['App', 'React Native']
 	}
 	// {
