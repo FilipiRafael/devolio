@@ -8,6 +8,7 @@ export interface Project {
 	postLink?: string;
 	demoLinkRel?: string;
 	[key: string]: any;
+	site?: string;
 }
 
 export const projects: Project[] = [
@@ -16,6 +17,18 @@ export const projects: Project[] = [
 		description: '🐈 Your Daily Dose of Meowtivation',
 		github: 'https://github.com/meowtive/meowtive',
 		tags: ['App', 'React Native']
+	},
+	{
+		name: 'nuvate',
+		description: 'AI-powered job matches and recruiter links for faster job searches',
+		site: 'https://nuvate.co/',
+		tags: ['Web', 'Next', 'React']
+	},
+	{
+		name: 'nomad news',
+		description: 'An web app where you will find news about being digital nomad',
+		site: 'https://www.nomadnews.com.br/',
+		tags: ['Web', 'Next', 'React']
 	}
 	// {
 	//   name: 'Sellercraft App',
